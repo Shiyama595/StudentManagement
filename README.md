@@ -33,5 +33,5 @@ A simple Student Management System web application built using **Spring Boot**, 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/StudentMgmt.git
+git clone https://github.com/Shiyama595/StudentManagement.git
 cd StudentMgmt
