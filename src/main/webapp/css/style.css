@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url('https://www.transparenttextures.com/patterns/cubes.png') repeat;
+    background-color: #e0f7fa; /* fallback color */
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #006064;
+    color: #ffffff;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+.navbar .links a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 20px;
+    transition: color 0.3s;
+}
+
+.navbar .links a:hover {
+    color: #ffccbc;
+}
+
+/* Main container */
+.container {
+    background-color: rgba(255, 255, 255, 0.95);
+    margin: 60px auto;
+    padding: 30px;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Input field */
+input[type="text"] {
+    width: 94%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #b0bec5;
+    border-radius: 5px;
+    font-size: 16px;
+}
+input[type="password"] {
+    width: 94%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #b0bec5;
+    border-radius: 5px;
+    font-size: 16px;
+}
+/* Button */
+button {
+    padding: 10px 24px;
+    background-color: #00838f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #006064;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 25px;
+    font-size: 0.95rem;
+}
+
+th, td {
+    border: 1px solid #b0bec5;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #004d40;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f1f8e9;
+}
